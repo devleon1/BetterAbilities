@@ -1,0 +1,17 @@
+name: BetterAbilities
+version: 4.0
+main: gg.leon.betterabilities.BetterAbilities
+api-version: 1.21
+author: Leon
+description: Fähigkeiten-Plugin mit Feuer, Wasser, Erde und Luft + Cooldown-Anzeige
+
+commands:
+  abilities:
+    description: Öffnet das Fähigkeiten-Menü
+    usage: /abilities
+    permission: betterabilities.use
+    permission-message: Du hast keine Berechtigung, diesen Befehl zu benutzen.
+
+permissions:
+  betterabilities.use:
+    default: true
